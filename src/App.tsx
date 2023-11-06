@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import Button from "./components/buttons/Button/Button";
 
 function App() {
   return (
     <div>
-
+      <Button text="пробная кнопка" onClick={() => console.log('click')}></Button>
     </div>
   );
 }
